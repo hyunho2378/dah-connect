@@ -1,0 +1,16 @@
+{
+  "name": "dah-connect",
+  "version": "0.1.0",
+  "description": "내 ChatGPT 요금제를 디인예 워크스페이스 AI 창에서 쓰게 해 주는 로컬 연결 프로그램 (Sign in with ChatGPT, ChatGPT plan usage)",
+  "type": "module",
+  "license": "MIT",
+  "private": false,
+  "bin": { "dah-connect": "dah-connect.mjs" },
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "start": "node dah-connect.mjs start",
+    "login": "node dah-connect.mjs login",
+    "serve": "node dah-connect.mjs serve",
+    "test": "node --test test/*.test.mjs"
+  }
+}
